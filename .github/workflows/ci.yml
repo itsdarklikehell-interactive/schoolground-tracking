@@ -11,4 +11,4 @@ jobs:
   ci:
     uses: itsdarklikehell-interactive/ci-templates/.github/workflows/ci-generic.yml@v1
     with:
-      dockerfile: ""
+      docker-build: false
